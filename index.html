@@ -463,6 +463,23 @@
               </li>
             </ul>
           </div>
+          <div class="container footer-newsletter-container">
+            <h2 class="newsletter_tittle">ZAPISZ SIĘ DO NEWSLETTERA</h2>
+            <form class="newsletter_form">
+              <input
+                name="newsletter"
+                type="email"
+                placeholder="E-mail"
+                class="newsletter_input"
+              />
+              <button type="submit" class="newsletter_button">
+                <h2>Zapisz się</h2>
+                <svg class="newsletter_button_icon" width="24" height="24">
+                  <use href="./images/icon.svg#icon-send"></use>
+                </svg>
+              </button>
+            </form>
+          </div>
         </div>
       </div>
     </footer>
@@ -470,9 +487,54 @@
       <div class="modal">
         <button type="button" class="closingbutton" data-modal-close>
           <svg class="closeicon" width="11" height="11">
-            <use href="./images/icon.svg#close"> </use>
+            <use href="./images/icon.svg#close"></use>
           </svg>
         </button>
+        <form class="order_form">
+          <h2 class="form_tittle">Zostaw swoje dane w formularzu poniżej</h2>
+          <ul class="form_list">
+            <li class="form_list_item">
+              <label for="name" class="input_label">Imię</label>
+              <input id="name" type="text" name="userName" class="form_input" />
+            </li>
+            <li class="form_list_item">
+              <label for="phone_number" class="input_label">Telefon</label>
+              <input
+                id="phone_number"
+                type="tel"
+                name="userTel"
+                class="form_input"
+              />
+            </li>
+            <li class="form_list_item">
+              <label for="email" class="input_label">Email</label>
+              <input
+                id="email"
+                type="email"
+                name="userEmail"
+                class="form_input"
+              />
+            </li>
+            <li class="form_list_item">
+              <label for="comment" class="input_label">Komentarz</label>
+              <textarea
+                id="comment"
+                placeholder="Wprowadź tekst"
+                type=""
+                name="userComment"
+                class="form_textarea"
+              ></textarea>
+            </li>
+            <li class="form_list_item">
+              <input type="checkbox" name="terms" id="terms" name="terms" class="input_label"/>
+              <label for="terms"
+                >Oświadczam iż akceptuję Regulamin i Politykę
+                Prywatności.</label
+              >
+            </li>
+          </ul>
+          <button type="submit" class="form_button">Wyślij</button>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
