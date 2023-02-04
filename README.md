@@ -1,1 +1,1 @@
-https://github.com/wiktoriaskibinska/goit-markup-hw-06
+https://wiktoriaskibinska.github.io/goit-markup-hw-06/
